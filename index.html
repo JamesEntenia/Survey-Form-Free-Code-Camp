@@ -5,8 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello Jempot</h1>
+        
+    <div id="main">
+        <div id="top-div">
+            <div>
+                <h1 id="title">Survey form</h1>
+            </div>
+
+            <div>
+                <p id="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis molestias quasi error nihil mollitia doloribus maxime sit dolorum eaque earum ex ut omnis inventore rerum, in repellendus atque, sunt tempore.</p>
+            </div>
+        </div>
+        <div id="form-div">
+            <form action="" id="survey-form">
+
+                <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter name" required>
+                <label for="email" id="email-label">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter email" required>
+                <label for="number" id="number-label">Number</label>
+                <input type="number" id="number" name="number" placeholder="Enter number" required min="0" max="999999999">
+                
+                <select name="" id="dropdown">
+                    <option value="male">Male</option>
+                    <option value="female"> Female</option>
+                </select>
+
+                <div>
+                <input type="radio" name="fruit" value="banana">
+                <label for="Banana">Banana</label>
+                </div>
+
+                <div>
+                <input type="radio" name="fruit" value="grape"> 
+                <label for="Grape">Grape</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" value="Softdrink">
+                </div>
+                <div>
+                    <input type="checkbox" value="water">
+                </div>
+                <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Comment..."></textarea>
+                <input type="submit" id="submit" value="submit">
+
+            </form>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
