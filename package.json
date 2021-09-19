@@ -1,0 +1,19 @@
+{
+  "name": "survey_form",
+  "version": "1.0.0",
+  "description": "Free Code Camp Survey Form Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesEntenia/Survey-Form-Free-Code-Camp.git"
+  },
+  "author": "James M. Entenia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesEntenia/Survey-Form-Free-Code-Camp/issues"
+  },
+  "homepage": "https://github.com/JamesEntenia/Survey-Form-Free-Code-Camp#readme"
+}
